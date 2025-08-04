@@ -8,7 +8,7 @@ bmi = round(weight / height**2, 2)
 #results
 print("\n---Results---")
 print(f"Hi {name} your BMI results are ready!\n")
-print(f"Your BMI is {round(bmi, 2)}. So your category is {category} ")
+
 #bmi categories
 if bmi < 18.5 : category = "underweight"
 elif 18.5<= bmi < 25 : category = "normal"
