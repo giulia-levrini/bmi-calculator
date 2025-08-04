@@ -22,7 +22,7 @@ elif category == "overweight" : print("I know you could feel frustrated or cople
 elif category == "obese" : print("The most important thing is that you love yourself! But I want you to keep in mind that beeing like this for a long time is not healthy for your body, wish you best<3")
 elif category == "overobese" : print("Mental health comes before everything else, but your body is facing a severe health condition I suggest you to look for help. You don't deserve to live like this. I know it'll be harsh but it's worth it")
 #save your results
-with open("bmi-results.txt", "w") as file:
+with open("bmi-results.txt", "a") as file:
     file.write("\n---RESULTS---")
     file.write(f"Name: {name}\n")
     file.write(f"Age: {age}\n")
@@ -30,3 +30,4 @@ with open("bmi-results.txt", "w") as file:
     file.write(f"Weight: {weight}\n")
     file.write(f"BMI: {bmi}\n")
     file.write(f"Category: {category}\n")
+print("\n Your results have been saved in 'bmi-results.txt'")
