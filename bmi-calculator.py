@@ -1,4 +1,4 @@
-#bmi input
+#bmi input 
 name = input("What's your name?")
 age = input("How old are you?")
 height = float(input("What's your height in metres? es: 1.70m"))
