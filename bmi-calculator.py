@@ -12,11 +12,11 @@ elif 25<= bmi < 30 : category = "overweight"
 elif 30 <= bmi < 35 : category = "obese"
 else : category = "overobese"
 #sentences based on result
-if category = "underweight" : print("I know it could be hard to be the skinniest, don't be upset, your not alone<3. If then you have lost weight due to mental healt, yuo deserve help! It'll get better I promise <3")
-elif category = "normal" : print("Your weight is absoulutely perfect! Now just focus on beeing the healthiest version of you! You can do this<3")
-elif category = "overweight" : print("I know you could feel frustrated or copletely ok with yourself, just remember: Your pearson is not defined by a number<3")
-elif category = "obese" : print("The most important thing is that you love yourself! But I want you to keep in mind that beeing like this for a long time is not healthy for your body, wish you best<3")
-elif category = "overobese" : print("Mental health comes before everything else, but your body is facing a severe health condition I suggest you to look for help. You don't deserve to live like this. I know it'll be harsh but it's worth it")
+if category == "underweight" : print("I know it could be hard to be the skinniest, don't be upset, your not alone<3. If then you have lost weight due to mental healt, yuo deserve help! It'll get better I promise <3")
+elif category == "normal" : print("Your weight is absoulutely perfect! Now just focus on beeing the healthiest version of you! You can do this<3")
+elif category == "overweight" : print("I know you could feel frustrated or copletely ok with yourself, just remember: Your pearson is not defined by a number<3")
+elif category == "obese" : print("The most important thing is that you love yourself! But I want you to keep in mind that beeing like this for a long time is not healthy for your body, wish you best<3")
+elif category == "overobese" : print("Mental health comes before everything else, but your body is facing a severe health condition I suggest you to look for help. You don't deserve to live like this. I know it'll be harsh but it's worth it")
 #results
 print("\n---Results---")
 print(f"Hi {name} your BMI results are ready!\n")
