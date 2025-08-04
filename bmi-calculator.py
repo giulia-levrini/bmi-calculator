@@ -15,6 +15,7 @@ elif 18.5<= bmi < 25 : category = "normal"
 elif 25<= bmi < 30 : category = "overweight"
 elif 30 <= bmi < 35 : category = "obese"
 else : category = "overobese"
+print(f"Your BMI is {round(bmi, 2)}. So your category is {category} ")
 #sentences based on result
 if category == "underweight" : print("I know it could be hard to be the skinniest, don't be upset, your not alone<3. If then you have lost weight due to mental healt, yuo deserve help! It'll get better I promise <3")
 elif category == "normal" : print("Your weight is absoulutely perfect! Now just focus on beeing the healthiest version of you! You can do this<3")
