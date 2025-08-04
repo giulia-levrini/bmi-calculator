@@ -31,4 +31,4 @@ with open("bmi-results.txt", "a") as file:
     file.write(f"Weight: {weight}\n")
     file.write(f"BMI: {bmi}\n")
     file.write(f"Category: {category}\n")
-print("\n Your results have been saved in 'bmi-results.txt'")
+
