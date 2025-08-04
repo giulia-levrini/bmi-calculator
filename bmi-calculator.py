@@ -4,7 +4,11 @@ age = input("How old are you?")
 height = float(input("What's your height in metres? es: 1.70m"))
 weight = float(input("What's your weight in kg?"))
 #bmi index
-bmi = input(float(round(weight / height**2)))
+bmi = round(weight / height**2, 2)
+#results
+print("\n---Results---")
+print(f"Hi {name} your BMI results are ready!\n")
+print(f"Your BMI is {round(bmi, 2)}. So your category is {category} ")
 #bmi categories
 if bmi < 18.5 : category = "underweight"
 elif 18.5<= bmi < 25 : category = "normal"
