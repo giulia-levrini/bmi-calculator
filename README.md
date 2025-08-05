@@ -12,4 +12,5 @@ This is a simple **BMI** (Body Mass Index) made with Python
 2.[Download the file] (https://github.com/giulia-levrini/bmi-calculator/blob/main/bmi-calculator.py)  
 3.Open your terminal and go to the folder where the file is  
 4.Find your **BMI**!  
-First ever program of a 16 y.o., made by Giulia Levrini,
+First ever program of a 16 y.o.
+made by Giulia Levrini🎀
