@@ -1,20 +1,21 @@
 #finestra opzioni
-import tkinter as tk:
-def scegli_lingua_finestra(lang)
+import tkinter as tk
+def scegli_lingua_finestra(lang) :
     global lingua
     lingua = lang
     finestra.destroy() 
     strart_program()
-def apri_app()
+def apri_app() :
     app = tk.Tk()
     app.title("BMI Calculator")
-def scegli_lingua()
+def scegli_lingua() :
+    global finestra
     finestra = tk.Tk()
     finestra.title("Choose the language/Scegli lingua")
     finestra.Label(finestra , text="Choose language/Scegli lingua").pack(pady=10)
-    finestra.Button(finestra , text="Italiano🇮🇹" , command=lambda : scegli_lingua("IT")).pack(pady=10)
-    finestra.Button(finestra , text="English🇬🇧" , command:lambda : scegli_lingua("EN")).pack(pady=5)
-def start_program():    
+    btn_it = finestra.Button(finestra , text="Italiano" , command=lambda : scegli_lingua("IT")).pack(pady=10)
+    btn_en = finestra.Button(finestra , text="English🇬🇧" , command:lambda : scegli_lingua("EN")).pack(pady=5)
+def start_program() :    
     if lingua == "EN" : 
         print("Welcome on BMI Calculator!")
         #bmi input 
