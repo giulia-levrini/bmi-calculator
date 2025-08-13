@@ -3,7 +3,7 @@ import tkinter as tk:
 def scegli_lingua(lang)
     global lingua
     lingua = lang
-    finestra.destroy()
+    finestra.destroy() 
 def apri_app()
     app = tk.Tk()
     app.title("BMI Calculator")
