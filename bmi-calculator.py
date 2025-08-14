@@ -69,7 +69,7 @@ def start_program() :
         print(f"Il tuo BMI è {round(bmi, 2)}. Quindi la tu categoria è {category} ")
         #sentences based on result
         if category == "sottopeso" : print("Vedo che sei sottopeso, non so se è perchè sei così di costituzione o lo sei diventat* in seguito a diete. Nel primo caso so come possa essere difficile essere sempre quell* più magr*, ma non preoccuparti, rimani sempre una bellissima persona. Se sui invece diventat* sottopeso, ti prego fatti aiutare<3 Tutti meritiamo una mano, ricordati che sei speciale<3")
-        elif category == "normale" : print("Il tuo peso è perfetto! Ora focalizzati sul rimanere in salute con uno stile di fita attivo e sano! Ti augoro il meglio<3")
+        elif category == "normale" : print("Il tuo peso è perfetto! Ora focalizzati sul rimanere in salute con uno stile di vita attivo e sano! Ti augoro il meglio<3")
         elif category == "sovrappeso" : print("So quanto possa essere difficile essere quell* chepesa un pò di più ma ricordati che tu non sei un numero<3 Le tue azioni definiscono ciò che sei<3")
         elif category == "obeso" : print("La cosa più importante è apprezzarsi per ciò che si è! Ricordati però che non è sano per il tuo corpo permanere in uno stato di obesità, col tempo portebbe portare a problemi di salute, ti augoro il meglio<3")
         elif category == "ultra obeso" : print("La salute mentale viene prima di tutto, tu però ti trovi in una condizione che nel lungo termine non può essere sostenuta dal tuo organismo! Chiedi a figure esperte che ti aiutranno, so che sarà difficile ma credo in te<3")
